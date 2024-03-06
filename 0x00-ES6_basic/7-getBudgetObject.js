@@ -1,10 +1,4 @@
-export default function getBudgetObject(income, gdp, capita) {
-  /* eslint-disable */
-  const budget = {
-    income,
-    gdp, 
-    capita,
-  };
+/* eslint-disable */
+const getBudgetObject = (income, gdp, capita) => ({ income, gdp, capita });
 
-  return budget;
-}
+export default getBudgetObject;

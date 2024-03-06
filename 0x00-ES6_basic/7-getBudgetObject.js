@@ -1,4 +1,2 @@
 /* eslint-disable */
-const getBudgetObject = (income, gdp, capita) => ({ income, gdp, capita });
-
-export default getBudgetObject;
+export default (income, gdp, capita) => ({ income, gdp, capita });
